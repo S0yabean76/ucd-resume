@@ -22,6 +22,29 @@
     background-color: #525252;
 }
 
+/*-------------------------------------------Special Padding/Margins/Text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
+
+
+
 /*------------------------------------------------------------Heading*/
 
 header {
@@ -61,11 +84,11 @@ header {
 }
 
 #nav {
-    margin:0;
+    margin: 0;
 }
 
 #nav li {
-    padding: 0;    
+    padding: 0;
 }
 
 .menu-item {
@@ -102,6 +125,15 @@ header {
 /*------------------------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background:rgb(0,0,0, 0.2);
+    background: rgb(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*------------------------------------------------------------Footer*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin:0;
 }
