@@ -30,9 +30,14 @@
     background-color: #f4f4f4;
 }
 
-.bg-color-work-history{
+.bg-color-work-history {
     background-color: #9659b6;
 }
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 /*-------------------------------------------Special Padding/Margins/Text*/
 
 h1,
@@ -234,7 +239,7 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.personal-info-item .key{
+.personal-info-item .key {
     display: inline-block;
     width: 30%;
     margin-right: 21px;
@@ -242,11 +247,11 @@ footer .cv-pdf i:hover {
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700;
 }
 
-.personal-info-item .value{
+.personal-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
@@ -254,39 +259,39 @@ footer .cv-pdf i:hover {
 
 /*-----------------------------------------------------------Skills*/
 
-.progress{
+.progress {
     position: relative;
     height: 25px;
 }
 
-.progress-type{
+.progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-section{
+.progress-section {
     margin: 40px 20px;
 }
 
 /*-----------------------------------------------------------Work History*/
 
-.timeline-item{
+.timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
 }
 
-.timeline-item p{
+.timeline-item p {
     padding: 0;
     margin: 0;
 }
 
-.timeline-item:before{
+.timeline-item:before {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
@@ -299,7 +304,7 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.timeline-item:after{
+.timeline-item:after {
     width: 12px;
     height: 12px;
     display: block;
@@ -311,13 +316,35 @@ footer .cv-pdf i:hover {
     background: #fafafa;
 }
 
-.history-heading{
-    color:#fafafa;
+.history-heading {
+    color: #fafafa;
     margin-bottom: 50px;
 }
 
-.history-items{
+.history-items {
     margin-bottom: 30px;
+}
+
+/*-----------------------------------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
 
 /*-----------------------------------------------------------Media Queries*/
@@ -328,3 +355,11 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
